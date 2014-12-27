@@ -1,0 +1,93 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro,
+.footer{
+  text-align: center;
+  color: white;
+  }
+
+.footer{
+  background-color: #215602;
+  padding: 1em;
+}
+
+.masthead{
+  padding: 6em 0;
+  border-top: solid 1em 
+   #215602;
+  background-image: url('http://i51.photobucket.com/albums/f380/Jazzchica78/traintracks_zps02ae54d2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.masthead-intro{
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+}
+
+.masthead-heading{
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.intro,
+.where,
+.more-about{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 38em;
+  margin-top: 2em;
+  }
+
+.intro > p,
+.where > p,
+.more-about > p{
+  /* Typography declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.more-about > h4{
+ color: #81BF5D;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a:link{
+  color: #81BF5D;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #3D7D17;
+  text-decoration: none;
+}
+a:hover{
+  color: #B0E193;
+}
+
+.social > li{
+  list-style-type: none;
+  padding-right: 2em;
+  display: inline;
+  margin: 0em;
+}
+.social{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 38em;
+  margin-top: 2em;
+  
+}
